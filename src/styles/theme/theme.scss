@@ -1,0 +1,209 @@
+.theme {
+	&_color {
+	&_project-default-default {
+		background-color: #FFFFFF;
+}
+	&_project-default-accent {
+		background-color: #0056B3;
+}
+	&_project-default-border {
+		background-color: #000000;
+}
+	&_project-default-main {
+		color: #000000;
+}
+	&_project-default-secondary {
+		background-color: rgba(0, 0, 0, 0.6);
+}
+	&_project-default-additional {
+		background-color: rgba(0, 0, 0, 0.3);
+}
+	&_project-default-link {
+		background-color: #0070f0;
+}
+
+
+	&_project-brand-default {
+		background-color: #0070f0;
+}
+    &_project-brand-accent {
+		background-color: #FFFFFF;
+}
+    &_project-brand-border {
+		background-color: #FFFFFF;
+}
+    &_project-brand-main {
+		background-color: #FFFFFF;
+}
+    &_project-brand-secondary {
+		background-color: rgba(255, 255, 255, 0.6);
+}
+    &_project-brand-additional {
+		background-color: rgba(255, 255, 255, 0.3);
+}
+
+    &_project-brand-link {
+		background-color: #FFFFFF;
+}
+
+	&_project-inverse-default { 
+		background-color: #000000;
+}
+
+	&_project-inverse-accent {
+		background-color: #FFFFFF;
+}
+		&_project-inverse-border {
+		background-color: #FFFFFF;
+}
+
+        &_project-inverse-main {
+        background-color: #FFFFFF;
+ }
+		&_project-inverse-secondary {
+		background-color: rgba(255, 255, 255, 0.6);
+}
+		&_project-inverse-additional { 
+		background-color: rgba(255, 255, 255, 0.3);
+}
+		&_project-inverse-link {
+		background-color: #0070f0;
+}
+
+		&_project-warning-default {
+		background-color: #FF9900;
+}
+
+		&_project-warning-accent {
+		background-color: #FFFFFF;
+}
+		&_project-warning-border {
+		background-color: #FFFFFF;
+}
+
+		&_project-warning-main {
+		background-color: #FFFFFF;
+}
+		&_project-warning-secondary { 
+		background-color: rgba(255, 255, 255, 0.6);
+}
+		&_project-warning-additional {
+		background-color: rgba(255, 255, 255, 0.3);
+}
+		&_project-warning-link {
+		background-color: #FFF;
+}
+
+	&_megafon-brand-default {
+		background-color: #1FA55D;
+}
+		&_megafon-brand-accent {
+		background-color: #FFFFFF;
+}
+		&_megafon-brand-border {
+		background-color: #FFFFFF;
+}
+
+		&_megafon-brand-main {
+		background-color: #FFFFFF;
+}
+		&_megafon-brand-secondary {
+		background-color: rgba(255, 255, 255, 0.6);
+}
+		&_megafon-brand-additional {
+		background-color: rgba(255, 255, 255, 0.3);
+}
+		&_megafon-brand-link {
+		background-color: #FFF;
+}
+}
+
+    &_size_default {
+    	&_s {
+    	height: 7px;
+}
+    	&_m {
+    	height: 8px;
+}
+    	&_l {
+    	height: 10px;
+}
+    	&_xl {
+    	height: 11px;
+}
+    	&_xxl {
+    	height: 13px;
+} 
+
+    	&_lh-s {
+    	line-height: 18px;
+}
+    	&_lh-m {
+    	line-height: 21px;
+}
+    	&_lh-l {
+    	line-height: 25px;
+}
+    	&_lh-xl {
+    	line-height: 28px;
+}
+    	&_lh-xxl {
+    	line-height: 34px;
+}
+    }
+
+    &_space_default {
+    	&_xxxs {
+    	margin: 2px;
+}
+    	&_xxs {
+    	margin: 4px;
+}
+    	&_xs {
+    	margin: 8px;
+}
+     	&_s {
+    	margin: 12px;
+}
+    	&_m {
+    	margin: 16px;
+}
+    	&_l {
+    	margin: 20px;
+}
+    	&_xl {
+    	margin: 24px;
+}
+    	&_xxl {
+    	margin: 32px;
+}
+    	&_xxxl {
+    	margin: 40px;
+}
+    	&_xxxxl {
+    	margin: 48px;
+}
+        &_xxxxxl {
+        margin: 72px;
+        }
+  }
+
+	.theme_breakpoint {
+  &_default {
+    --screen-l: 1144px;
+  }
+}
+
+	&_gap {
+		&_small {
+		&_xxxl {
+			display: grid;
+			grid-gap: var(--indents-xxxl);
+			}
+		}
+
+		&_small-m {
+			grid-gap: calc(var(--gap / 2));
+		    }
+    }
+}

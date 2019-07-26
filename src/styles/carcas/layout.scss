@@ -1,0 +1,37 @@
+.layout {
+	&__container {
+		display: flex;
+		&_align {
+			&_center {
+		justify-content: center
+	  }
+	}
+		&_size-s {
+		max-width: 880px;
+		}
+		&_size-m { 
+		max-width: 1400px;
+		}
+
+	&_space-v {
+		&_xxxxl {
+		margin-top: var(--space-default-xxxxl);
+	}
+
+	    &_xxxxxl {
+		margin-top: var(--space-default-xxxxxl);
+}
+	}
+
+	&_indent-b {
+		&_xxl{ 
+		margin-bottom: var(--space-default-xxl);
+	}
+
+	    &_xxxl {
+		margin-bottom: var(--space-default-xxxl);
+	}
+	}
+	}
+	
+}
