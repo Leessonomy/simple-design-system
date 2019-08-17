@@ -10,7 +10,7 @@
 		background-color: #000000;
 }
 	&_project-default-main {
-		color: #000000;
+		background-color: #000000;
 }
 	&_project-default-secondary {
 		background-color: rgba(0, 0, 0, 0.6);
@@ -185,13 +185,7 @@
 }
         &_xxxxxl {
         margin: 72px;
-        }
-  }
-
-	.theme_breakpoint {
-  &_default {
-    --screen-l: 1144px;
-  }
+}
 }
 
 	&_gap {
@@ -206,4 +200,13 @@
 			grid-gap: calc(var(--gap / 2));
 		    }
     }
+}
+
+
+@media (max-width: 1144px) {
+.theme_breakpoint {
+   grid-auto-columns: 100% !important;
+    grid-template-columns: none!important;
+    max-width: 880px!important;
+}
 }

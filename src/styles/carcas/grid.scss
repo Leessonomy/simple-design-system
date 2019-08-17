@@ -4,12 +4,12 @@
   &_m-columns {
     &_10 {
      display: grid;
-      grid-template-columns: repeat(10, 1fr);
+     grid-template-columns: repeat(10, 1fr);
     }
 
     &_12 {
      display: grid;
-      grid-template-columns: repeat(12, 1fr);
+     grid-template-columns: repeat(12, 1fr);
     }
   }
 
@@ -54,8 +54,24 @@
       grid-column: span 5;
     }
 
+    &_6 {
+      grid-column: span 6;
+    }
+
+    &_7 {
+      grid-column: span 7;
+    }
+
     &_8 {
       grid-column: span 8;
+    }
+
+    &_10 {
+      grid-column: span 10;
+    }
+
+    &_12 {
+      grid-column: span 12;
     }
   }
 
