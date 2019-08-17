@@ -1,6 +1,6 @@
 /* импортировать интересующие блоки из папки bemjson */
 
-/*---------------------------------------------------------------- все блоки ----------------------------------------------------------------*/
+/*---------------------------------------------------------- все блоки ----------------------------------------------------------*/
 
 /*import articles from '../bemjson/articles.js';
 import collect from '../bemjson/collect.js';
@@ -98,7 +98,7 @@ function render(node, obj) {
 /* Функция шаблонизатор */
 
 function templateEngine(obj) {
-	const node = document.createElement('div');
+    const node = document.createElement('div');
     render(node, obj);
     return node.innerHTML;
 };
