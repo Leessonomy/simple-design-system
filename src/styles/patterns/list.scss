@@ -1,82 +1,78 @@
 .list {
-	&_border {
-		&_all {
-		border: 3px solid black;
-	}
-	}
+  &_border {
+    &_all {
+      border: 3px solid black;
+    }
+  }
 
-	&_view {
-		background-color: var(--color-bg-default);
-	}
+  &_view {
+    background-color: var(--color-bg-default);
+  }
 }
-
 
 .list__item {
-    display: flex;
-	&_border {
-	   &_bottom {
-		border-bottom: 3px solid black;
-        &:last-of-type {
+  display: flex;
+  &_border {
+    &_bottom {
+      border-bottom: 3px solid black;
+      &:last-of-type {
         border: none;
       }
-    } 
-        &_top {
-		border-top: 3px solid black;
-    } 
-}
-
-    &_distribute {
-        &_between {
-        display: flex;
-    	justify-content: space-between;
-        flex-direction: column;
-        align-items: start;
     }
+    &_top {
+      border-top: 3px solid black;
     }
+  }
 
-    &_vertical-align {
-        &_center {
-        display: flex;
-        align-items: center;
-        }
+  &_distribute {
+    &_between {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: start;
     }
+  }
 
-    &_indent-t {
+  &_vertical-align {
+    &_center {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &_indent-t {
     &_m {
-    	margin-top: var(--space-default-m);
+      margin-top: var(--space-default-m);
     }
-}
+  }
 
-    &_indent-b {
-    &_s{
-    	margin-bottom: var(--space-default-s);
-    }
-
-    &_m{
-    	margin-bottom: var(--space-default-m);
+  &_indent-b {
+    &_s {
+      margin-bottom: var(--space-default-s);
     }
 
-    &_l{
-    	margin-bottom: var(--space-default-l);
+    &_m {
+      margin-bottom: var(--space-default-m);
     }
 
-    &_xl{
-    	margin-bottom: var(--space-default-xl);
-    }
-}
-
-
-    &_space-b {
-        &_s {
-    	padding-bottom: var(--space-default-s);
-    }
+    &_l {
+      margin-bottom: var(--space-default-l);
     }
 
-    &_space-a {
-        &_l {
-    	padding: var(--space-default-l);
+    &_xl {
+      margin-bottom: var(--space-default-xl);
     }
-    }
+  }
 
-    
+  &_space-b {
+    &_s {
+      padding-bottom: var(--space-default-s);
+    }
+  }
+
+  &_space-a {
+    &_l {
+      padding: var(--space-default-l);
+    }
+  }
 }

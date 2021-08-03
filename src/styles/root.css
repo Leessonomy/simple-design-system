@@ -1,51 +1,50 @@
 :root {
-    --gap: 40px;
+  --gap: 40px;
 
-	--height-s: 7px;
-	--height-m: 8px;
-	--height-l: 10px;
-	--height-xl: 11px;
-	--height-xxl: 13px;
+  --height-s: 7px;
+  --height-m: 8px;
+  --height-l: 10px;
+  --height-xl: 11px;
+  --height-xxl: 13px;
 
-	--line-height-s: 18px;
-	--line-height-m: 21px;
-	--line-height-l: 25px;
-	--line-height-xl: 28px;
-	--line-height-xxl: 34px;
+  --line-height-s: 18px;
+  --line-height-m: 21px;
+  --line-height-l: 25px;
+  --line-height-xl: 28px;
+  --line-height-xxl: 34px;
 
-	--indents-xxxs: 2px;
-	--indents-xxs: 4px;
-	--indents-xs: 8px;
-	--indents-s: 12px;
-	--indents-m: 16px;
-	--indents-l: 20px;
-	--indents-xl: 24px;
-	--indents-xxl: 32px;
-	--indents-xxxl: 40px;
-	--indents-xxxxl: 48px;
-	--indents-xxxxxl: 72px;
+  --indents-xxxs: 2px;
+  --indents-xxs: 4px;
+  --indents-xs: 8px;
+  --indents-s: 12px;
+  --indents-m: 16px;
+  --indents-l: 20px;
+  --indents-xl: 24px;
+  --indents-xxl: 32px;
+  --indents-xxxl: 40px;
+  --indents-xxxxl: 48px;
+  --indents-xxxxxl: 72px;
 
+  --space-default-xxxs: 2px;
+  --space-default-xxs: 4px;
+  --space-default-xs: 8px;
+  --space-default-s: 12px;
+  --space-default-m: 16px;
+  --space-default-l: 20px;
+  --space-default-xl: 24px;
+  --space-default-xxl: 32px;
+  --space-default-xxxl: 40px;
+  --space-default-xxxxl: 48px;
+  --space-default-xxxxxl: 72px;
 
-	--space-default-xxxs: 2px;
-	--space-default-xxs: 4px;
-	--space-default-xs: 8px;
-	--space-default-s: 12px;
-	--space-default-m: 16px;
-	--space-default-l: 20px;
-	--space-default-xl: 24px;
-	--space-default-xxl: 32px;
-	--space-default-xxxl: 40px;
-	--space-default-xxxxl: 48px;
-	--space-default-xxxxxl: 72px;
+  --color-bg-default: #ffffff;
+  --color-bg-border-default: #000000;
+  --color-bg-border-brand: #ffffff;
 
-	--color-bg-default: #FFFFFF;
-	--color-bg-border-default: #000000;
-	--color-bg-border-brand: #FFFFFF;
-
-	--color-text-primary: #FFFFFF;
-	--color-text-primary-default: #000000;
-	--color-text-secondary: rgba(0, 0, 0, 0.6);
-	--color-text-secondary-brand: rgba(255, 255, 255, 0.6);
-	--color-text-additional: rgba(255, 255, 255, 0.3);
-	--color-text-link: #0070f0;
+  --color-text-primary: #ffffff;
+  --color-text-primary-default: #000000;
+  --color-text-secondary: rgba(0, 0, 0, 0.6);
+  --color-text-secondary-brand: rgba(255, 255, 255, 0.6);
+  --color-text-additional: rgba(255, 255, 255, 0.3);
+  --color-text-link: #0070f0;
 }
